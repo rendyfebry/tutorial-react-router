@@ -1,0 +1,36 @@
+body {
+	margin: 0;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #333;
+	background-color: #fff;
+	padding: 20px 0;
+}
+
+.navbar-default {
+}
+
+.jumbotron {
+	text-align: center;
+	background-color: #222;
+	padding: 20px;
+	color: white;
+}
+
+.App-logo {
+	animation: App-logo-spin infinite 20s linear;
+	height: 80px;
+}
+
+.App-title {
+	font-size: 1.5em;
+}
+
+.App-intro {
+	font-size: large;
+}
+
+.content {
+	text-align: center;
+}
