@@ -14,18 +14,17 @@ import App2 from './App2'
 const Header = () => (
 	<nav className="navbar navbar-default">
 		<div className="container-fluid">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
+			<div className="navbar-header">
+				<button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span className="sr-only">Toggle navigation</span>
+					<span className="icon-bar"></span>
+					<span className="icon-bar"></span>
+					<span className="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">Project name</a>
+				<Link to='/' className="navbar-brand">React Router</Link>
 			</div>
-			<div className="navbar-collapse collapse">
+			<div className="navbar-collapse collapse" id="navbar">
 				<ul className="nav navbar-nav">
-					<li><Link to='/'>Home</Link></li>
 					<li><Link to='/app1'>App 1</Link></li>
 					<li><Link to='/app2'>App 2</Link></li>
 				</ul>
